@@ -42,12 +42,14 @@ export default function Nav() {
           </IconButton>
         </IconGroup>
       </LeftContainer>
+
+      {clickedMenu && <SideNav />}
     </Bar>
   );
 }
 
 const Bar = styled.nav<IStyled>`
-  ${({ theme }) => theme.mixins.flexBox("column", "start", "center")}
+  ${({ theme }) => theme.mixins.flexBox("row", "start", "start")}
   position: fixed;
   top: 0;
   left: 0;
