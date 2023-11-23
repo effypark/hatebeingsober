@@ -9,6 +9,9 @@ export const IMG_BANNER_3 = "/images/banner/banner_3.jpg";
 export const IMG_SUB_BANNER_1 = "/images/subBanner/sub_banner_1.jpg";
 export const IMG_SUB_BANNER_2 = "/images/subBanner/sub_banner_2.jpg";
 export const IMG_SUB_BANNER_3 = "/images/subBanner/sub_banner_3.jpg";
+export const IMG_SUB_BANNER_4 = "/images/subBanner/sub_banner_4.jpg";
+export const IMG_SUB_BANNER_5 = "/images/subBanner/sub_banner_5.jpg";
+export const IMG_SUB_BANNER_6 = "/images/subBanner/sub_banner_6.jpg";
 
 // icons
 export const IC_CART = "/icons/ic_cart.png";

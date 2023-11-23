@@ -6,7 +6,7 @@ export const Section = styled.section`
   z-index: 2;
   width: 100%;
   margin: 0 auto;
-  height: 1000px;
+  height: 940px;
   color: ${({ theme }) => theme.color.black};
   background-color: ${({ theme }) => theme.color.white};
 `;
@@ -44,6 +44,7 @@ export const MainText = styled.p`
   right: 0;
   margin: 0;
   padding: 0px 40px 0 460px;
+  font-size: 14px;
 `;
 
 export const SubText = styled.p`
@@ -51,11 +52,22 @@ export const SubText = styled.p`
   right: 0;
   margin: 0;
   padding: 500px 40px 0 700px;
+  font-size: 14px;
 `;
 
 export const ProdSection = styled.section`
   position: relative;
+  height: 100vh;
   padding: 20px 120px;
   z-index: 2;
   background-color: #313131;
+`;
+
+export const ProductsList = styled.div`
+  padding: 80px 0;
+`;
+
+export const ProductPoster = styled.div`
+  -webkit-box-reflect: below 20px
+    linear-gradient(transparent, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.3));
 `;
